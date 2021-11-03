@@ -71,7 +71,3 @@ fx(x) apenas define os **valores de probabilidade** quando integrada num interva
 
 fx(x) dx é a **probabilidade** da variável X **pertencer ao intervalos** (x,x+dx), sendo dx um **acréscimo infinitesimal**
 
----
-
-## Caracterização - Parte 2
-
