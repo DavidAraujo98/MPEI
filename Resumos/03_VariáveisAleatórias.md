@@ -18,7 +18,7 @@ Uma variável aleatória escalar X é um mapeamento de um espaço amostral S par
 
 ### Discreta
 
-Se os valores que a variável aleatória pode assumir forem infinitos
+Se os valores que a variável aleatória pode assumir forem finitos
  - ou infinitos mas contáveis
 
 ### Contínua
