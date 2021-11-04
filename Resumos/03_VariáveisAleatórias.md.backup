@@ -71,3 +71,24 @@ fx(x) apenas define os **valores de probabilidade** quando integrada num interva
 
 fx(x) dx é a **probabilidade** da variável X **pertencer ao intervalos** (x,x+dx), sendo dx um **acréscimo infinitesimal**
 
+---
+
+## Caracterização - Parte 2
+
+### Valor esperado 
+
+Sendo X uma **variável aleatória** , o valor esperado será a **média de X**  ao repetirmos a experiênia indefinidamente
+
+Representando por **x_i** os **m** diferentes valores que **Xi** pode assumir
+
+**SUM(i=1 to m) x_i * P(X = x_i)** 
+
+O valor esperado é representado por **E[X]**
+
+- No caso **discreto**:  E[X] = SUM(i) x_i * p( x_i ) 
+- No caso **continuo**:  E[X] = Integral(-inf to +inf) x * f_x(x) dx
+
+### Variância
+ 
+- **Var(E) = E[ ( X - E(X) )² ]**
+- **Var(X) = E[X²] - E²**
