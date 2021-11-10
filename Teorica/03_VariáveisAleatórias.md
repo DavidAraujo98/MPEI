@@ -81,14 +81,75 @@ Sendo X uma **variável aleatória** , o valor esperado será a **média de X** 
 
 Representando por **x_i** os **m** diferentes valores que **Xi** pode assumir
 
-**SUM(i=1 to m) x_i * P(X = x_i)** 
+**SUM_i=1 to m of (x_i * P(X = x_i))** 
 
 O valor esperado é representado por **E[X]**
 
 - No caso **discreto**:  E[X] = SUM(i) x_i * p( x_i ) 
 - No caso **continuo**:  E[X] = Integral(-inf to +inf) x * f_x(x) dx
 
+#### Propriedades
+
+E[x] é um **operador linear**
+
+Dado *a* e *c* são contantes ∈R e *X* e *Y* variáveis aleatórias:
+
+- E[aX] = a*E[X]
+- E[X+Y] = E[X] + E[Y]
+- E[X+c] = E[X] + c
+
 ### Variância
+
+Usar a diferença dos valores da variável para a média (valor esperado) e fazer a sua média
  
-- **Var(E) = E[ ( X - E(X) )² ]**
-- **Var(X) = E[X²] - E²[X]**
+- **var(X) = E[ ( X - E(X) )² ]**
+- **var(X) = 𝜎^2 = SUM_i([x_i - E(X)]^2) * p(x_i)**
+- **var(X) = E[X²] - E²[X]**
+
+#### Desvio padrão
+
+Varância = **(desvio padrão)^2**
+
+Respresentado por **𝜎**
+
+#### Propriedades variância
+
+Dado *X* uma variável aleatória e *c* uma constantes:
+
+- **var(X+c) = var(X)**
+- **var(cX) = c^2 * var(X)**
+
+#### Interpretação
+
+- **E[X]**
+  - **Valor médio** de X
+  - **Centro de gravidade da fmp** (caso discreto) ou **fdp**
+
+- Desvio padrão / Variância dá uma medida de **dispersão** da variável aleatória
+
+### Momentos de ordem *n*
+
+- Caso discreto
+
+m_n = E[X^n] = SUM_i ( (x_i)^n * p_x(x_i) )
+
+- Exemplo dado equilibrado:
+
+n = 2
+p_x(x_i) = 1/6
+x_i = (1:6)
+
+E[X^2] = 1^2 * 1/6 + 2^2 * 1/6 + 3^2 * 1/6 + ... = 15,1667
+
+- Momentos **centrados de ordem *n*** = generalização da variância
+
+- E[ (X - E[X])^n ] = SUM_i ( x_i - E[X] )^n * p_x(x_i)
+
+### Exemplo
+
+- Qual o valor da variância dos valores obtidos no lançamento de um dado honesto ?
+
+E[X^2] = 1^2 * 1/6 + 2^2 * 1/6 + 3^2 * 1/6 + ... = **15,1667**
+E^2[X] = (1 * 1/6 + 2 * 1/6 + 3 * 1/6 + ...)^2 = **12,25**
+
+var(X) = E[X^2] - E^2[X] = 15,1667 - 12,25 = **2.9167**
