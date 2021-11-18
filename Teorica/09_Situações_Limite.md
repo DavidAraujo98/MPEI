@@ -99,4 +99,13 @@ Permite dizer que a **frequência relativa é uma boa estimativa da probabilidad
 
 Teorema: **demonstra-se que a soma de variáveis i.i.d. tende para uma distribuição normal quando o número de variáveis é grande**
 
-> Continuar página 319
+É a razão da **importância da distribuição Normal**
+
+### Aplicando à média Mn
+
+Mn = (1/n) * SUM_i=1 to n (Xi)
+
+Pelo TLC:
+- Mn ~ N(𝜇,𝜎2/𝑛) quando n -> +inf
+
+A distribuição da média de n variáveis i.i.d. **tende** para uma **distribuição normal** com parâmetros *𝜇* e *𝜎2/𝑛*
