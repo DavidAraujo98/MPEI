@@ -18,3 +18,4 @@ O processo **mapeia o evento para números diferentes em tempos diferentes**
 *sendo t ∈ T geralmente um conjunto de tempos*
 
 
+> continua slide 349
