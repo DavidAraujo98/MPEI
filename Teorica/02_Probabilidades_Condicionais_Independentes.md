@@ -138,4 +138,4 @@ Consiste em realizar uma experiência e registar se um dado acontecimento se ver
 - A probabilidade de *k* sucessos e *(n-k)* falhas é: **p^k x (1-p)^(n-k)**
 
 ### Lei Binomial
-- **Pn(k) = n-Combinations-k * p^k * (1-p)^k**
+- **Pn(k) = n-Combinations-k * p^k * (1-p)^(n-k)**
