@@ -134,5 +134,8 @@ Independência 2 a 2 não implica independência
 
 Consiste em realizar uma experiência e registar se um dado acontecimento se verifica ou não
 
- - Seja *p* a probabilidade de sucesso, ou seja, *1-p* a de falhar
- - A probabilidade de *k* sucessos e *(n-k)* falhas é: **p^k x (1-p)^(n-k)**
+- Seja *p* a probabilidade de sucesso, ou seja, *1-p* a de falhar
+- A probabilidade de *k* sucessos e *(n-k)* falhas é: **p^k x (1-p)^(n-k)**
+
+### Lei Binomial
+- **Pn(k) = n-Combinations-k * p^k * (1-p)^(n-k)**
